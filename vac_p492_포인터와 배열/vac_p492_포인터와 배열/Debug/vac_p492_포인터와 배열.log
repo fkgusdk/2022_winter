@@ -1,0 +1,8 @@
+﻿  vac_p492_포인터와 배열.cpp
+C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\vac_p492_포인터와 배열\vac_p492_포인터와 배열.cpp(18,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\vac_p492_포인터와 배열\vac_p492_포인터와 배열.cpp(19,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\vac_p492_포인터와 배열\vac_p492_포인터와 배열.cpp(20,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\vac_p492_포인터와 배열\vac_p492_포인터와 배열.cpp(22,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\vac_p492_포인터와 배열\vac_p492_포인터와 배열.cpp(24,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\vac_p492_포인터와 배열\vac_p492_포인터와 배열.cpp(25,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+  vac_p492_포인터와 배열.vcxproj -> C:\Users\user\Desktop\For My Life\vac_p492_포인터와 배열\Debug\vac_p492_포인터와 배열.exe
