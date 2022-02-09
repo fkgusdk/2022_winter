@@ -1,0 +1,30 @@
+n,m = map(int, input().split())
+
+board = [[0] * n for _ in range(n)] # 색칠 보드
+
+# 해당 셀의 주위 4방향
+drs = [0,0,-1,1]
+dcs = [-1,1,0,0]
+
+# 인덱스의 범위 검사
+def in_range(nr,nc):
+    return nr >= 0 and nr < n and nc >= 0 and nc < n
+
+# 색칠, 편안함 검사
+for _ in range(m):
+    # 셀 입력받기
+    r,c = map(int, input().split())
+
+    # 해당 셀의 행열을 보드 위에서의 인덱스로 가공
+    r,c = r-1, c-1
+    if board[r][c] == 0:
+        board[r][c] = 1
+
+    count = 0 # 주위에 색칠된 셀의 개수
+    for dr,dc in zip(drs,dcs):
+        nr, nc = r + dr, c + dc
+        if in_range(nr,nc) and board[nr][nc] == 1: # 해당 위치에 셀이 있고, 색칠되어 있다면
+            count += 1
+
+    if count == 3: print(1)
+    else: print(0)
